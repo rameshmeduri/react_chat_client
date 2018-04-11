@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
-
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -9,8 +8,7 @@ p {
   display: inline-block;
 }
 
-.App {
-  background-color: #1EE494;
+.App {  
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -21,15 +19,14 @@ p {
 .chatroom {
   width: 360px;
   height: 600px;
-  background-color: rgba(0,0,0, .7);
+  background-color: rgba(0,0,0, 0.1);
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 8px 0 rgba(0,0,0, 0.3);
 }
 
 .chatroom h3 {
   font-family: 'Pacifico', cursive;
-  background-color: rgba(30, 228, 148, 0.7);
+  background-color: rgba(0,0,0,0.2);
   color: #FFF;
   margin: 0;
   height: 40px;
@@ -82,19 +79,13 @@ p {
 .chatroom .input {
   height: 40px;
   width: 100%;
-  background: rgba(30, 228, 148, 0.7);
+  background: rgba(0,0,0, 0.2);
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.chatroom .input input[type="text"] {
-  background: rgba(255, 255, 255, 0.5);
-  outline: 0;
-  border: 2px solid #1EE494;
-  padding: 0 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
+.chatroom .input input[type="text"] {    
   margin-left: 10px;
   height: 30px;
   width: 270px;
@@ -103,14 +94,10 @@ p {
 }
 
 .chatroom .input input[type="submit"] {
-  background: transparent;
-  border: 1px solid #1EE494;
   height: 30px;
   width: 70px;
   font-size: 14px;
-  box-sizing: border-box;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  box-sizing: border-box;  
   cursor: pointer;
   transition: all 0.3s ease;
 }
