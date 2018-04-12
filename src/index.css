@@ -9,8 +9,6 @@ p {
 }
 
 .App {  
-  height: 100vh;
-  width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,33 +74,10 @@ p {
   color:#3498DB;
 }
 
-.chatroom .input {
-  height: 40px;
-  width: 100%;
-  background: rgba(0,0,0, 0.2);
+.chatroom .input {  
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
   align-items: center;
-}
+  justify-content: center;
 
-.chatroom .input input[type="text"] {    
-  margin-left: 10px;
-  height: 30px;
-  width: 270px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-
-.chatroom .input input[type="submit"] {
-  height: 30px;
-  width: 70px;
-  font-size: 14px;
-  box-sizing: border-box;  
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.chatroom .input input[type="submit"]:hover {
-  background: #1EE494;
-  color: #FFF;
 }
